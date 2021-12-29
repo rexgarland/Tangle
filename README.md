@@ -12,12 +12,12 @@ npm install
 
 ## Running
 
-Edit the files `template.html` and `index.js`, then run
+Edit the files `example.*` in the `src` directory, then run
 ```shell
 npm run export
 ```
 
-Now everything is packaged into `dist/document.html`. You can share it with your grandma!
+Everything will be packaged into `dist/document.html`. You can share it with your grandma!
 
 ## Other additions
 
