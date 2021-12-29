@@ -1,0 +1,27 @@
+{
+  "name": "tangle",
+  "version": "1.0.0",
+  "description": "This is a fork of [Tangle](https://github.com/worrydream/Tangle).",
+  "main": "Tangle.js",
+  "scripts": {
+    "export": "browserify src/example.js -o dist/bundle.js && node src/export.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rexgarland/Tangle.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rexgarland/Tangle/issues"
+  },
+  "homepage": "https://github.com/rexgarland/Tangle#readme",
+  "dependencies": {
+    "handlebars": "^4.7.7",
+    "mootools": "^1.5.2",
+    "sprintf-js": "^1.1.2",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  }
+}

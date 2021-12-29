@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Tangle document</title>
+		<style type="text/css">{{{ style }}}</style>
+		<style type="text/css">{{{ tangleKitStyle }}}</style>
+	</head>
+
+	<body>
+		<div id="boundary">
+			<h1>Investment</h1>
+			<p>This is a reactive document.</p>
+			<div id="investmentExample" class="example">
+				<div class="exampleTop"></div>
+				<div class="exampleCenter">
+					<p>A typical index fund grows at <span data-var="apr">%</span> per year. If you...</p>
+					<ul>
+						<li>start with <span data-var="initialAmount" class="TKAdjustableNumber" data-min="0" data-max="100000" data-step="500" data-format="dollars"></span></li>
+						<li>add <span data-var="monthlyExpense" class="TKAdjustableNumber" data-min="0" data-max="10000" data-step="100" data-format="dollars"></span> per month</li>
+						<li>over <span data-var="years" class="TKAdjustableNumber" data-min="1" data-max="20"> years</span></li>
+					</ul>
+					<p>...you would save <span data-var="total" data-format="dollars"></span></p>
+				</div>
+				<div class="exampleBottom"></div>
+			</div>
+		</div>
+	</body>
+
+	<script type="text/javascript">{{{ script }}}</script>
+
+</html>
